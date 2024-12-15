@@ -7,7 +7,7 @@ import {
 } from '@rainbow-me/rainbowkit/wallets';
 import { useMemo } from 'react';
 import { http, createConfig } from 'wagmi';
-import { base, baseSepolia } from 'wagmi/chains';
+import { base, baseSepolia, mantleSepoliaTestnet } from 'wagmi/chains';
 import { VITE_WALLET_CONNECT_PROJECT_ID } from './config';
 
 export function useWagmiConfig() {
@@ -37,13 +37,13 @@ export function useWagmiConfig() {
     );
 
     const wagmiConfig = createConfig({
-      chains: [base, baseSepolia],
+      chains: [mantleSepoliaTestnet, baseSepolia],
       // turn off injected provider discovery
       multiInjectedProviderDiscovery: false,
       connectors,
       ssr: true,
       transports: {
-        [base.id]: http(),
+        [mantleSepoliaTestnet.id]: http(),
         [baseSepolia.id]: http(),
       },
     });

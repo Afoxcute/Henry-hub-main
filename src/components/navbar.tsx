@@ -97,7 +97,7 @@ export default function Navbar({}) {
                 color: "white",
               }}
             >
-              BASEARPS
+              HENRY HUB
             </Typography>
           </Box>
           <Box>

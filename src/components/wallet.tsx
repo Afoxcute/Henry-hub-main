@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
 import { WagmiProvider, createConfig, http } from 'wagmi';
-import { baseSepolia } from 'wagmi/chains';
+import { baseSepolia, mantleSepoliaTestnet } from 'wagmi/chains';
 import { coinbaseWallet } from 'wagmi/connectors';
  
 const wagmiConfig = createConfig({
-  chains: [baseSepolia],
+  chains: [mantleSepoliaTestnet],
   connectors: [
     coinbaseWallet({
       appName: 'solarps',
@@ -12,7 +12,7 @@ const wagmiConfig = createConfig({
   ],
   ssr: true,
   transports: {
-    [baseSepolia.id]: http(),
+    [mantleSepoliaTestnet.id]: http(),
   },
 });
  

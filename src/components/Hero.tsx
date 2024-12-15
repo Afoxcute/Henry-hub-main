@@ -40,7 +40,7 @@ Resolve it online!
             color: "black",
           }}
           onClick={() => {
-            window.open('https://basearpsrps-i5xh.vercel.app/play', '_blank');
+            window.open('https://rps-beige-nu.vercel.app/', '_blank');
           }}
         >
           Play Now
