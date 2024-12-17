@@ -17,7 +17,7 @@ import OnchainProviders from './OnchainProviders';
 
 const Basepay = () => {
   React.useEffect(() => {
-    window.open('https://basepay.link/', '_blank');
+    window.open('', '_blank');
     // Optionally navigate back to home page
     window.location.href = '/';
   }, []);
@@ -28,7 +28,7 @@ const Basepay = () => {
 
 const Yield = () => {
   React.useEffect(() => {
-    window.open('https://basearpsyield-wine.vercel.app/', '_blank');
+    window.open('', '_blank');
     // Optionally navigate back to home page
     window.location.href = '/';
   }, []);
@@ -40,7 +40,7 @@ const Yield = () => {
 
 const BasearpsID = () => {
   React.useEffect(() => {
-    window.open('https://basearpsid.vercel.app', '_blank');
+    window.open('https://henry-hub-id-verify.vercel.app/', '_blank');
     // Optionally navigate back to home page
     window.location.href = '/';
   }, []);
@@ -51,7 +51,7 @@ const BasearpsID = () => {
 
 const Basearpsveri = () => {
   React.useEffect(() => {
-    window.open('https://basearpsveri.vercel.app', '_blank');
+    window.open('', '_blank');
     // Optionally navigate back to home page
     window.location.href = '/';
   }, []);
@@ -61,7 +61,7 @@ const Basearpsveri = () => {
 
 const Basearpsagri = () => {
   React.useEffect(() => {
-    window.open('https://basedagri.vercel.app', '_blank');
+    window.open('', '_blank');
     // Optionally navigate back to home page
     window.location.href = '/';
   }, []);
