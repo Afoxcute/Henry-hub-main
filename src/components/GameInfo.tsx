@@ -31,7 +31,7 @@ const GameInfo: React.FC<GameInfoProps> = ({
     }}
   >
     <div className="game">
-      <p className="game_title">Basearps ID</p>
+      <p className="game_title">Henry-hub-ID-verify</p>
       <p className="game_cont">
       “Wait, Do you know you can have a reusable identity online that anyone can use to verify you easily?
       Either you are a farmer, a student, a worker, a business owner, a freelancer, a professional, a retiree, a child, a teenager, a young adult, a middle-aged adult, or an elderly person, you can have a reusable identity online that anyone can use to verify you easily.
@@ -63,7 +63,7 @@ const GameInfo: React.FC<GameInfoProps> = ({
       <div className="game">
         <p className="game_title">Are you a Philantropist or you love to help the needy??</p>
         <p className="game_cont">
-          At Basearps, we believe in the power of giving. We are a community-driven platform that allows you to donate to verified needy people and organizations.
+          At Henry hub, we believe in the power of giving. We are a community-driven platform that allows you to donate to verified needy people and organizations.
           That is why we have a Ecommerce section where you can donate to verified needy people and organizations.
         </p>
  
@@ -115,7 +115,7 @@ const GameInfo: React.FC<GameInfoProps> = ({
       <div className="game">
         <p className="game_title">As a farmer, Are you struggling with gaining ownership of your produce and land?</p>
         <p className="game_cont">
-          At Basearps, we built a platform where you can register your produce and land, and trade them with other farmers & traders.
+          At Henry hub, we built a platform where you can register your produce and land, and trade them with other farmers & traders.
         </p>
     
 
@@ -164,7 +164,7 @@ const GameInfo: React.FC<GameInfoProps> = ({
       <div className="game">
         <p className="game_title">Struggling with payment methods as a African?</p>
         <p className="game_cont">
-          At Basearps, We built a platform where you can pay for goods and services with your local currency and across many currencies.
+          At Henry hub, We built a platform where you can pay for goods and services with your local currency and across many currencies.
           In Nigeria, We can call this Mobile POS.
         </p>
    
@@ -284,7 +284,7 @@ const GameInfo: React.FC<GameInfoProps> = ({
                 color: "white",
               }}
             >
-              Basearps
+              Henry hub
             </Typography>
           </Box>
           <p
@@ -293,7 +293,7 @@ const GameInfo: React.FC<GameInfoProps> = ({
               fontSize: "14px",
             }}
           >
-            Copyright © Basearps
+            Copyright © Henry hub
           </p>
         </div>
       </div>
